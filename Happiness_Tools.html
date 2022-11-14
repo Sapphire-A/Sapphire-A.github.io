@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happindex_Tools</title>
+  </head>
+    <link rel="stylesheet"  href="style.css" type ="text/css" media = "screen"/> 
+
+<body>
+<Div id="H13"> 
+   <br><br>
+    <h1 id="h1a"> ANALYZE WITH AKU</h1>
+     <ul id = "a2">
+      <li> <a href = "index.html"> Welcome </a></li> &nbsp;&nbsp;&nbsp;
+      <li id><a href = "my_portfolio.html"> Portfolio </a></li> &nbsp;&nbsp;&nbsp; 
+      <li id><a href = "About_me.html"> About Me </a></li> 
+  </ul>
+</Div>
+
+<Div id="a3">
+<h2> TOOLS AND ANALYSIS </h2> </Div>
+<h2> </h2>
+
+<Div id="rb3">
+  
+This project will use the following statitical tools to analyze the data: <br>
+Regression - Time-Series - Least-Squares - Forecasting<br>
+Correlation - ANOVA - Chi-Square - F-test<br>
+
+<h4> CORRELATION </h4>
+Correlation is one of the tools used in regression.
+The coefficient of correlation R, States the strength of the relationship whereas R2, the coefficient of determination explains by how much this change is due to the independent variable, which is the percentage of values that actually fall on the trend line.<br><br>
+
+
+<h4> REGRESSION</h4>
+
+Regression analysis is a set of statistical methods used to determine and estimate relationships between variables of interest, but specifically between a dependent variable and one or more independent or explanatory variables. This is done by forming a line of best fit to the data values otherwise known as a trend line. 
+<br><br>
+
+ A regression model shows whether changes observed in the dependent variable are associated with changes observed in one or more of the independent variables.<br><br>
+
+One of the main purposes of regression is to predict unknown and future values of the dependent variable, thus, it is used in forecasting. 
+
+Regression uses Chi-squared test of independence as a tool which in turn uses the F-test to ascertain probabilities for its hypothesis calculations.<br><br>
+
+ There are various methods of trend line fitting including the Least Squares Method. This is the preferred technique that will be used for this project.<br><br>
+
+<h4>INFLUENCING FACTORS </h4>
+In this project there is only dependent variable but about six independent ones used to determine changes in Y. These are different from the ones used by the Gallup World Poll in the World Happiness Report. They are detailed below.
+
+<h4>HAPPINESS SCORES </h4>
+This is the dependent variable Y.
+ The set of happiness scores from 126 countries averaged by the regression equation at the intercept point of 2016 shall form the basis of the dependent variable Y, herein
+
+<h4>REGIONAL INFLUENCE </h4>
+Here the effect of regional attributes is seen as a factor influencing change in happiness scores.
+
+<h4>CLIMATIC FACTORS</h4>
+Here the average temperature of countries is used to relate to happiness to discover hidden trends.
+
+<h4>LATITUDE</h4>
+Here the distance from the equator seems a most certain factor influencing happiness 
+
+<h4>COASTAL GEOGRAPHY</h4>
+The presence of large volumes of water surrounding a city or country tends to influence moods but can this be proven herein?
+
+
+<h4>FLAG SYMBOL</h4>
+All the top countries in Happiness seem to have similar flag symbols. What could this reveal? 
+
+<h4>TIME SERIES</h4>
+A time series is set of observations ordered with respect to the successive time intervals. In other words, it is the chronological arrangement of data. Time is an independent variable and can be in hours, days, months or years. <br><br>
+
+A time series depicts the relationship between two variables of which Time is the independent and the other ,  is any quantitative dependent variable.
+
+Th components of Time Series are the Trend, the Seasonal Variations, the Cyclical Variations and 
+Random movements and its models include the Additive, the multiplicative and the mixed models.
+ The most important use of time series is to predict future values of the dependent variable. <br><br>
+
+
+This project shall be using the Time Series of the actual Happiness index Scores of 128 selected countries from 2013 to 2019 for its calculations, and shall use the Additive model Y = BX + C as it is a linear relationship between the scores and time
+
+
+
+
+<h4>THE LEAST SQUARES METHOD</h4>
+Least Squares is a method for finding the best fit of a set of data points by minimizing the sum of the residuals of points from the plotted line or curve. It gives the trend line of best fit to a time series data in such a manner that the following two conditions are satisfied.
+<ul>
+<li>The sum of the deviations of the actual values of Y and the computed values of Y is zero.</li>
+
+<li>The sum of the squares of the deviations of the actual values and the computed values is least.</li></ul>
+
+The trend line (Y) is defined by the following equation:<br><br>
+
+Y = BX + C<br><br>
+
+Where, Y = predicted value of the dependent variable <br><br>
+
+ C= Y-axis intercept; when X = 0, Y = C <br><br>
+
+B = slope of the line (the rate of change in Y for a given change in X)<br><br>
+
+When B is positive the slope is upwards, and when it is negative, the slope is downwards<br><br>
+
+X = independent variable (in this case it is time)<br><br>
+
+To estimate the constants B and C, the following two equations have to be solved simultaneously:<br><br>
+
+∑Y = nC + B∑X <br><br>
+
+∑XY = C∑X + B∑X² <br><br>
+
+ To simplify the calculations, the midpoint of the time series is set to be zero (origin) so that the negative values in the first half balance out the positive values in the second and ∑X = 0. 
+
+
+
+<h4>FORECASTING</h4>
+
+Forecasting is a technique of predicting future events, values or observations based on the results of previous data statistically perused. There are two basic types: Quantitative and Qualitative forecasting
+Within which many technique abound including the Time Series method, the Econometric and the Straight-line method among others.<br><br>
+This project shall build upon the Time Series model using the Least Squares technique already applied.
+The Years in view for forecasting are 2023 to 2028, a time series span of six years. 
+
+
+<h4>CHI-SQUARED </h4>
+Chi-square (χ2) statistic is a test that measures how a model compares to actual observed data. 
+ The purpose of this test is to determine whether there is a statistically significant difference between them both and if so, to determine if it is due to chance, or if it is due to a relationship between the variables under study.<br><br>
+
+It is used to test hypothesis using set degrees of freedom and set levels of significance
+
+There are two types of chi-square: The goodness of fit test which determines if sample data fits a population; and the test for independence which determines if two distributions of categorical variables differ from each other. 
+
+The formula is <img src="images/chi-square-formula.jpg"> 
+<br><br>
+The data used in calculating chi-square statistics must be random, mutually exclusive, drawn from independent variables, and drawn from a large enough sample.
+<br><br>
+
+<h4>F-TEST</h4>
+An F-test is any statistical test in which the test statistic has an F-distribution under the null hypothesis. It is mostly used for the comparison of statistical models that have been fitted to data sets, to identify models that best fit population data. Its other uses include testing equality of variances of two population, and testing equality of several means.<br><br>
+
+It will be used to test the significance of the regression model.
+In other words to test whether or not the linear regression model provides a better fit to the dataset than a model with no predictor variables. 
+
+The F-Statistic is a ratio of two variances.<br><br>
+
+
+
+ The F Value is calculated using the formula F = (SSE1 – SSE2 / m) / SSE2 / n-k, where SSE = residual sum of squares, m = number of restrictions and k = number of independent variables. the F Statistic which is the critical value for the test) can be found in the F-Table.
+
+
+
+
+
+
+<div id="rb4"></Div>
+
+</body>
+<br><br>
+
+<footer id="ft2">
+
+  
+  <p style="TEXT-ALIGN: center">  
+  <a href="Happindex_Tables_Info.html" style="float: left"> BACK </a>
+        <a style="float:right" href="Happindex_Excel_Stats.html"> NEXT </a>
+
+
+  
+  CONTACT<br>
+  akuwealth@yahoo.com<br><br>
+
+    copyright @AnalyzeWithAku 2022</p>
+
+    
+
+</footer>

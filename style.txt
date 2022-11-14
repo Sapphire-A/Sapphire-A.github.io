@@ -1,0 +1,322 @@
+body {
+    font-size: 15pt;
+    background: skyblue;
+    text-align: justify;
+}
+    #a1 {background:url("images/pic5.jpg"); 
+    background-repeat: no-repeat;
+    height: 350px; 
+    width:100%; padding: 6px;
+      background-size: cover;
+    } 
+    
+ #b1 {
+        height: 350px; 
+    width:100%; padding: px;
+display: flex;
+  }
+  
+  #b2 {background:url("images/pic5.jpg"); 
+    background-repeat: no-repeat;
+    height: 350px; 
+    width:50%; padding: px;
+    background-size: cover;
+    
+
+  }
+    
+  #b3 {background:url("images/pic5.jpg"); 
+    background-repeat: no-repeat;
+    height: 350px; 
+ width: 50%;  padding: px;
+    float: right;
+   background-size: cover;
+
+  }
+    
+ 
+    
+ #r2 {background:url("images/pica7.jpg"); 
+ 
+    background-size: cover;
+    width:100%;
+    padding: 6px;
+    text-align: center;
+    height: 300px;
+    }
+
+
+  #H2 {background:url("images/Happy9.jpg"); 
+ 
+    background-size: cover;
+    width:100%;
+    padding: 6px;
+    text-align: center;
+    height: 300px;
+    }
+
+ #r5 {background:url("images/pica9.jpg"); 
+ 
+    background-size: cover;
+    width:100%;
+    padding: 6px;
+    text-align: center;
+    height: 300px;
+    }
+    
+ #pt1 {background:url("images/pica1.jpg"); 
+    background-repeat: repeat;
+    height: 350px;
+    width:100%;
+    padding: 6px;
+    background-size: cover;
+    text-align: center;
+    }    
+#rb1 {background:url("images/pica9.jpg"); 
+    width:100%;
+    height: 500px;.
+    padding: 1px;
+    background-size: cover;
+    text-align: ;
+    }
+    
+#H13 {background:url("images/Happy6.png"); 
+    width:100%;
+    height: 500px;.
+    padding: px;
+    background-size: cover;
+    text-align: ;
+    }   
+
+#H14 {background:url("images/Happy3.png"); 
+    width:100%;
+    height: 500px;.
+    padding: px;
+    background-size: cover;
+    text-align: ;
+    }   
+
+#H15 {background:url("images/Happy11.png"); 
+    width:100%;
+    height: 500px;.
+    padding: px;
+    background-size: cover;
+    text-align: ;
+    }  
+#H19 {background:url("images/Happy3.png"); 
+    width:100%;
+    height: 500px;.
+    padding: px;
+    background-size: cover;
+    text-align: ;
+    }  
+#H16 {background:url("images/Happy15.jpg"); 
+    width:100%;
+    height: 500px;.
+    padding: px;
+    background-size: cover;
+    text-align: ;
+    }  
+
+
+#cv1 {background:url("images/pica9.jg"); 
+    width:100%;
+    height: 100px;.
+    padding: 1px;
+    background-size: cover;
+    background: pink;
+}
+    
+    
+  #a3 {
+      background: dodgerblue;
+    
+}
+    #a3 {background: dodgerblue; 
+      padding: 3px;width: 100%;
+      font-size:25px;
+  
+    }
+    #a4 {background: lightblue;
+      padding-top: 1px;
+    }
+  
+    
+#r1 {display:inline;
+float:right;
+  padding: 10px;
+}
+
+
+#li2 {
+  display: inline;
+  top: 100px;
+}
+table {
+  width: 70%
+}
+
+#ft1 {
+  height: 13px;
+  background: cornflowerblue;
+  position: relative;
+}
+
+#ft2 {
+  height: 250px;
+  background: cornflowerblue;
+  position: relative;
+  margin-left: -10px;
+  margin-right: -10px;
+  font-size: 18pt;
+}
+
+#p1 {
+position: absolute;
+text-align: center;
+bottom: -5px; 
+left: 300px;
+
+}
+#i2 {background: url("images/pic4.jpg");
+    background-repeat: repeat;
+    height: 500px;
+    width: 100%;
+    padding: 6px;
+    background-size: cover
+}
+
+  #pt3 {background: url("Images/pica5.jpg");
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    padding: 6px;
+    background-size: cover
+    }
+
+
+  #pt3a {
+    height: 450px;
+    width: 100%;
+    padding: 6px;
+    background-size: cover
+    }
+
+#i1, #i3{
+  height: 300px;
+  text-align: center;
+  font-size: 16pt ;
+}
+
+#i6{
+  height: 300px;
+  text-align: center;
+  font-size: 16pt ;
+}
+#cv2{
+  height: 100px;
+  text-align: center;
+}
+
+#pt2 {
+    height: 300px;
+    text-align: center
+}
+
+ #rb3 {
+   font-size:25pt;
+   height:300px;
+ }
+
+
+ #rb2 {
+   font-size:25pt;
+   height:200px;
+ }
+
+
+#h1i{
+  text-align:center;
+  top:-10px; 
+  position: absolute;
+  font-size:30px;
+  color:blue;
+}
+
+
+#h1a{
+  text-align:center;
+  top:-10px; 
+  position: absolute;
+  font-size:30px;
+  color:;
+}
+
+
+
+
+#h1b {
+  float: left;
+  top:0px;
+  position: 
+  font-size:25pt;
+  color:dodgerblue;
+  
+}
+#h1c {
+  float: left;
+  top:-30px;
+  position: 
+  font-size:25pt;
+  color:dodgerblue;
+  }
+ #rb4 {
+   font-size:25pt;
+   height:400px;
+ }
+ 
+ #h2a {
+   font-size: 25pt;
+ }
+
+#R1 {
+  width: 100%;
+  height: 3100px;
+  display: flex;
+  padding-top: 10px
+  padding-bottom: 20px;
+  background: mintcream;
+ 
+}
+
+#R2 {
+  width: 75%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#R3 {
+  width: 25%;
+  background: skyblue;
+  color: mintcream;
+}
+
+#R4 {
+  height: 20%;
+  background:#937DDB;
+  padding-left: 20px;
+  padding-right: 10px; 
+  text-align: center;
+}
+ #R5 {
+   height: 20%; 
+ background: skyblue;
+   padding-left: 20px;
+  padding-right: 10px;
+  Text-align: left;
+}
+
+#pr1 {
+  height: 15px;
+  border-radius: 50%;
+}
