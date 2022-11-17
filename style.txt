@@ -16,7 +16,7 @@ body {
 display: flex;
   }
   
-  #b2 {background:url("images/pic5.jpg"); 
+  #b2 {background:url("pic5.jpg"); 
     background-repeat: no-repeat;
     height: 350px; 
     width:50%; padding: px;
